@@ -23,3 +23,23 @@ pts)
 - Provide results with and without regularization (5 pts) 
 Provide the code with all the options (commenting out one option) 
 Provide all results as figures
+
+Project Description:
+Determine if a baby is in pain or not based of its vitals
+
+Dataset:
+5 Columns 
+1. Index
+2. Heartrate of baby
+3. Respiratory Rate of baby
+4. Oxygen Saturation Level
+5. Is baby in pain or not (0, 1, 2, or #)
+    0: baby is not in pain
+    1: mild pain
+    2: strong pain
+    #: label is missing (label not collected)
+
+Submission:
+2 files:
+1. Training Code
+2. Testing Code
