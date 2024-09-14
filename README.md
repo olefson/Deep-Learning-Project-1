@@ -43,3 +43,8 @@ Submission:
 2 files:
 1. Training Code
 2. Testing Code
+
+Notes: 
+
+After first test run, there is a problem with getting stuck at 56.6% accuracy. This is confermed to be because of a significant class imbalance in the dataset (severe pain is underrepresented)
+Attempted fix: use class weights to assign higher weights to underrepresented classes during the model's training step. The goal being to penalzie misclassifications in minority classes more heavily, encouraging the model to pay more attention to them. 
